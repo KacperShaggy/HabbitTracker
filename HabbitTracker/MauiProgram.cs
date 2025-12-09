@@ -13,6 +13,10 @@ namespace HabbitTracker
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Poppins-Black.ttf", "Poppins-Black");
+                    fonts.AddFont("Poppins-BlackItalic.ttf", "Poppins-BlackItalic");
+                    fonts.AddFont("Poppins-Regular.ttf", "Poppins-Regular"); 
+                    fonts.AddFont("Poppins-ExtraBold.ttf", "Poppins-ExtraBold");
                 });
 
 #if DEBUG
