@@ -15,21 +15,23 @@
                TextColor="MidnightBlue"
                Margin="20,0,40,0"
                ></Label>
-            <Button Text=">" WidthRequest="10"></Button>
-            
+            <Button Text=">" WidthRequest="10" Clicked="Date_next"></Button>
+     
             <Label HorizontalOptions="End"
         FontSize="30"
         Text="24.12"
+                   x:Name="Data_habbit"
         FontFamily="Poppins-Regular"
         TextColor="MidnightBlue"
         ></Label>
-            <Button Text=">" WidthRequest="10"></Button>
+            <Button Text=">" WidthRequest="10" Clicked="Date_back"></Button>
         </HorizontalStackLayout>
         <HorizontalStackLayout HeightRequest="100" BackgroundColor="MidnightBlue" Margin="0,20,0,0">
             <StackLayout>
                         <Label HorizontalOptions="Start"
                        Margin="10,10,0,10"
                        Text="0%"
+                       x:Name="Task_made_%"
                        FontSize="16"
                        FontFamily="Poppins-Regular"
                        TextColor="white"></Label>
